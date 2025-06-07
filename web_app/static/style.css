@@ -1,0 +1,99 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(135deg, #2c3e50, #4ca1af);
+  color: #ecf0f1;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Card Styling */
+.card {
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 15px;
+  padding: 40px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+  width: 100%;
+  max-width: 600px;
+  animation: fadeIn 1s ease-in-out;
+}
+
+/* Header Styling */
+.card h2 {
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+/* Form Styling */
+.form-group {
+  margin-bottom: 20px;
+}
+
+.custom-file-input {
+  color: transparent;
+}
+
+.custom-file-label {
+  background-color: #34495e;
+  color: #ecf0f1;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.btn-primary {
+  background-color: #3498db;
+  border: none;
+  padding: 12px 30px;
+  font-weight: 600;
+  border-radius: 5px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: #2980b9;
+}
+
+/* Footer Styling */
+.footer {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+  color: #bdc3c7;
+}
+
+/* Logout Link Styling */
+.logout {
+  text-align: right;
+  margin-bottom: 10px;
+}
+
+.logout a {
+  color: #e74c3c;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+/* Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
